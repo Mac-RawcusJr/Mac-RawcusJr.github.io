@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mac's EDA BLog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/styles/main.css" rel="stylesheet" type="text/css">
+
+    <!--Google font link------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <div class="header">
+        <h1>Mac's EDA Blog</h1>
+
+        <!--Navigation bar---------------------------------------------->
+        <nav class="navbar">
+            <ul>
+              <li><a href="../index.html" >Home</a></li>
+
+              <li><a href="tech.html" id="page-glow">Tech</a></li>
+
+              <li><a href="core.html">Core</a></li>
+
+              <li><a href="reflections.html">Reflections</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+   <!--Articles-------------------------------------->
+   
+     <!--JavaScript Post-------------------------------->
+   <div class="container" id="javascript-fundamentals">
+
+    <div class="h1">
+      <h1>JavaScript Fundamentals</h1>
+   </div>
+   
+    <div class="article">
+        <div>
+          <h6>Javascript and its relation to CSS and HTML</h6>
+            <p>Java Script (not the same as Java) is a method of giving computers instructions that improve user interactions from a functionaltiy perspecive similarly to CSS. Java script allows us to update content, keep track of events (events beings clicks, mouse movement, etc.), deeper inspections of webpages, animate objects and various other cool tricks.</p>
+
+            <p>When comparing JS to CSS and HTML javascript is more like CSS, making the webpage flow nicer for the viewers and give them best access and assistance while also providing the owner with valuable information about its usage.</p>
+            
+            <p>If we were to use a house analogy where the Html is the bone structure of the house and the CSS is the paint and decoration i would say that Javascript provides the lightswitches, fusebox, hot water cylinder, taps and other inbuilt appliances that are usful to making a house helathy and livable. This is because Javascript is not really visual but wokrs more in the background providing small yet useful and effective aspects that really imporve a website / house.  </p>
+        </div>
+        <div>
+          <h6>Control Flow and Loops</h6>
+          <!-- Use everyDay examples -------->  
+          <p>Control flow is the sequence at which the conmputer reads the code and in what order they are out into action. the default Control flow order is typically from top to bottom until you write out specific code that tells the computer to prioritize this bit of code over some others. </p><p>Changing the Control Flow seems to mostly happen when we use Loops. Loops are pieces of code the instruct the computer to repeat a certain peice of code until instructed to stop or the result becomes false. We use loops for various situations but the most simple way is to instruct a computer to comb through <em><a href="#array">arrays</a></em> of information and can perform a step by step process of dealing with that information.</p>
+          <p>Loops are like your morning routine and the activator is your alarm, your alarm goes off which instructs you to wake up, then shower, get dressed, have breakfast, then head to work. its a consistant loop that when activiated performs a series of actions. And control flow is a more broader version of loops with less routine.</p>
+        </div>
+        <div class="warp">
+          <div>
+          <h6>The DOM</h6>
+            <p>The D.O.M. stands for Document Object Model and is displayed in a tree diagram showing the how every object is connected much like a family tree as seen in the image below. This diagram displays the relationship between what we call parent and child objects where each parent object links to a child object below. here we see that HTML is the parent of Head and body and also the Grandparent to meta, title, h1 and h2. Using this diagram we will be able to navigate around the webpage within the dom easier.as this is how the computer internally sees the relationship between elements and objects.</p>
+          </div>
+            <!-- <img src="/images/DOM-diagram.png" alt="DOM Diagram" id="dom-diagram"> -->
+        </div>
+        
+        <div>
+          <h6 id="array">Accessing Data from arrays and objects</h6>
+             <p>Arrays and Objects are both used to storage collection of information to be accessed at later dates. however, the main difference is the type of data they contain, arrays store multiple items in a single variable whereas an object could contain a collection of data including multiple variables and key data properties. Therefore, we can also sometimes see arrays wiht objects.</p>
+             <!-- <img src="/images/array syntax.png" alt="array-syntax" class="center"> -->
+             <p>Of course we can access the information within these elements and use them in future codes but each is accessed differently since the way informatino stred is also different.</p>
+              <div class="warp"><div><p>Objects can be accessed by writing a pathway to the specific code were after and we can use either Dont notation or bracket notation each describing the pathway to the data. We can also change the value of properties using push, pop and shift codes depending on how we wish to affect the data collection.</p>
+                <!-- <img src="/images/Object syntax.png" alt="object-syntax" class="center"> -->
+            </div>
+          </div>
+        </div>
+        <div>
+          <h6>Functions</h6>
+             <p>Functions are one of javascripts greatest tools as they can be used to perform a sequence of particular task and summaraized into a simplar smaller piece of code if needed.</p>
+             <!--<img src="/images/functions.png" alt="Functions Example" class="center" id="functions-img">-->
+             <p>As we can see in this image we have created a function that when activated using <em></em>newFunction</em> porperty it will take the two values within sum them up and return the total value.</p>
+        </div>
+    </div>
+  </div>
+
+  <!--CSS Positioning Post-------------------------------->
+  <div class="container" id="css-positioning">
+
+    <div class="h1">
+      <h1>Css Positioning</h1>
+   </div>
+
+    <div class="article">
+        <div>
+        <h6>What is the position property?</h6>
+        <p>The position property manipulates an elements position within the webpage.</p>
+        </div>
+        <div>
+          <h6>Relative</h6>
+          <p>According to W3 School relative positioning “is positioned relative to its normal position.” 
+            The positioning allows an element to be positioned relative to its default spot. So, you can move an element in direction any amount of distance and not be affected by many other elements. However, this position style won’t work without further coding giving the element instructions on where to move to. This means that the top, right, bottom, and left
+          </p>
+          </div>
+          <div>
+            <h6>Fixed</h6>
+            <p>A Fixed position makes the elements position relative to the viewpoint of the web page.  In simple terms this positioning makes an element stay still on a screen even if you are scrolling and moving around on the actual webpage the element will stay in the same place. 
+              An example of this is typical a menu option on a page that stays tucked away in a corner available for use no matter where you go on a page. 
+            </p>
+            </div>
+            <div>
+              <h6>Absolute</h6>
+              <p>Relative positioning is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed)  
+              </p>
+              <!--<div class="image">
+              <img src="/images/css-position-all.png" alt="css-positioning-diagram" id="css-positioning-diagram">
+            </div>-->
+            <div>
+              <p>This diagram provides a visual example of how each position affects an element. As we can see a relative position is adjusted from its default position. An absolute position is determined by the distance from margins but still can be scrolled passed unlike and a fixed position which is also determined by the distance from margins but will stay in the spot even while scrolling. </p>
+            </div>
+              </div>
+    </div>
+  </div>
+
+  </body>
+</html>
