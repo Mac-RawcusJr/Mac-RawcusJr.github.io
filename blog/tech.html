@@ -56,24 +56,35 @@
           <p>Control flow is the sequence at which the conmputer reads the code and in what order they are out into action. the default Control flow order is typically from top to bottom until you write out specific code that tells the computer to prioritize this bit of code over some others. </p><p>Changing the Control Flow seems to mostly happen when we use Loops. Loops are pieces of code the instruct the computer to repeat a certain peice of code until instructed to stop or the result becomes false. We use loops for various situations but the most simple way is to instruct a computer to comb through <em><a href="#array">arrays</a></em> of information and can perform a step by step process of dealing with that information.</p>
           <p>Loops are like your morning routine and the activator is your alarm, your alarm goes off which instructs you to wake up, then shower, get dressed, have breakfast, then head to work. its a consistant loop that when activiated performs a series of actions. And control flow is a more broader version of loops with less routine.</p>
         </div>
-        <div class="warp">
+        <div>
           <div>
           <h6>The DOM</h6>
-            <p>The D.O.M. stands for Document Object Model and is displayed in a tree diagram showing the how every object is connected much like a family tree as seen in the image below. This diagram displays the relationship between what we call parent and child objects where each parent object links to a child object below. here we see that HTML is the parent of Head and body and also the Grandparent to meta, title, h1 and h2. Using this diagram we will be able to navigate around the webpage within the dom easier.as this is how the computer internally sees the relationship between elements and objects.</p>
+            <p>The Document Object Model is a translated and simplified diagram of a Webpages HTML element/object hierarchy. The DOM can also be used to create interactions and events such as a submit button or load more option that does not require the entire page to refresh. You can think of the DOM as a translation of html so that other languages such as JavaScript and CSS can understand it better, or vice versa. 
+              <p>The Dom can often be shown as a diagram displaying the documents element relations between parent and child elements. Much like the diagram shown here:</p>
+              <img src="/images/DOM-diagram.png" alt="DOM Diagram" id="dom-diagram" class="center">
+              <p>This diagram shows that the HEAD and BODY elements are the children of HTML. So when we use CSS to change how an element appears or positioned we use element tags that locate the specific element were after on the DOM diagram. 
+              </p>
           </div>
-            <img src="/images/DOM-diagram.png" alt="DOM Diagram" id="dom-diagram">
+            
         </div>
         
         <div>
           <h6 id="array">Accessing Data from arrays and objects</h6>
-             <p>Arrays and Objects are both used to storage collection of information to be accessed at later dates. however, the main difference is the type of data they contain, arrays store multiple items in a single variable whereas an object could contain a collection of data including multiple variables and key data properties. Therefore, we can also sometimes see arrays wiht objects.</p>
+             <p>Arrays and Objects are both used to store collections of information to be accessed at later dates. What seprates the two is how the store information, arrays being differenct values under a single varaiable whereas an object is more specific and contains a list of different variables each with their own values. This also means that we can have Arrays inside of objects because a variable can have more than one value.</p>
+            
+            <b>Arrays</b>
+
+             <p>An array is often displayed within squared brackets ([array]) and can be very useful when we have multiple values. As we can see in this photo we have an 2 arrays with 3 values in each.</p>
              <img src="/images/array syntax.png" alt="array-syntax" class="center">
-             <p>Of course we can access the information within these elements and use them in future codes but each is accessed differently since the way informatino stred is also different.</p>
-              <div class="warp"><div><p>Objects can be accessed by writing a pathway to the specific code were after and we can use either Dont notation or bracket notation each describing the pathway to the data. We can also change the value of properties using push, pop and shift codes depending on how we wish to affect the data collection.</p>
+             <p>When trying to access these values the computer has already assigned numerical values to each value and it always starts with <em>0</em>. There when calling the value 1 = [0], 2 = [1] and 3 = [2]. Somtimes wehen we have arrays within arrays we can access them the same way but create a sort of path with the numerical values. if i wanted to access the value Mac it would be <em>array([1][0])</em> the 1 is for the first set of square brackets and the 0 is for the value Mac. </p>
+
+            <b>Objects</b>
+
+              <p>Objects can be accessed by writing a pathway to the specific code were after and we can use either Dont notation or bracket notation each describing the pathway to the data. We can also change the value of properties using push, pop and shift codes depending on how we wish to affect the data collection.</p>
                 <img src="/images/Object syntax.png" alt="object-syntax" class="center">
-            </div>
-          </div>
         </div>
+          
+        
         <div>
           <h6>Functions</h6>
              <p>Functions are one of javascripts greatest tools as they can be used to perform a sequence of particular task and summaraized into a simplar smaller piece of code if needed.</p>
@@ -123,3 +134,5 @@
 
   </body>
 </html>
+
+

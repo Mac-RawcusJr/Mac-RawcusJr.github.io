@@ -10,11 +10,8 @@ body{
   background-color: #F5A020;
 }
 
-header{
-  width: 100%;
-}
 
-.header{
+header{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +24,7 @@ header{
   color: whitesmoke;
   box-shadow: inset 0 0 20px white;
 }
+
 
 ul{
   display: flex;
@@ -207,4 +205,28 @@ video{
 
 #functions-img{
   width: 60%;
+}
+
+@media (max-width: 768px) {
+  .sug-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 50px;
+  }
+  li{
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  h1{
+    font-size: 50px;
+  }
+  li{
+    font-size: 25px;
+  }
 }
